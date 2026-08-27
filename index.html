@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hush — Privacy Policy, Terms of Service & EULA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0B0E14;
+            --surface: #141A23;
+            --surface-sub: #1C2330;
+            --primary: #00E676;
+            --primary-glow: rgba(0, 230, 118, 0.15);
+            --amber: #FFB020;
+            --text: #F5F7FA;
+            --text-sec: #94A3B8;
+            --text-mut: #64748B;
+            --border: #263244;
+            --err: #FF5252;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 48px;
+            padding-bottom: 32px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .logo {
+            width: 72px;
+            height: 72px;
+            border-radius: 18px;
+            background: linear-gradient(135deg, #00E676, #00B0FF);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 34px;
+            margin-bottom: 16px;
+            box-shadow: 0 0 30px var(--primary-glow);
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            color: var(--primary);
+            font-size: 15px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        .meta {
+            color: var(--text-mut);
+            font-size: 13px;
+            margin-top: 6px;
+        }
+
+        .card {
+            background-color: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 32px;
+            margin-bottom: 28px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        h2 {
+            font-size: 22px;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h3 {
+            font-size: 17px;
+            font-weight: 600;
+            color: var(--amber);
+            margin: 20px 0 10px;
+        }
+
+        p, li {
+            color: var(--text-sec);
+            font-size: 15px;
+            margin-bottom: 12px;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-bottom: 16px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .alert-box {
+            background-color: rgba(255, 82, 82, 0.08);
+            border: 1px solid rgba(255, 82, 82, 0.3);
+            border-radius: 14px;
+            padding: 16px 20px;
+            margin: 16px 0;
+        }
+
+        .alert-box h4 {
+            color: var(--err);
+            font-size: 15px;
+            font-weight: 700;
+            margin-bottom: 6px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 700;
+            background: var(--surface-sub);
+            color: var(--primary);
+            border: 1px solid var(--border);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+            color: var(--text-mut);
+            font-size: 13px;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">🔒</div>
+            <h1>Hush</h1>
+            <p class="subtitle">Private • Ephemeral • End-to-End Encrypted</p>
+            <p class="meta">Effective Date: August 28, 2026 | Application Version: 1.0.0</p>
+        </header>
+
+        <!-- PRIVACY POLICY -->
+        <div class="card" id="privacy">
+            <h2>🛡️ 1. Privacy Policy</h2>
+            <p>At <strong>Hush</strong>, privacy is not an option or an afterthought—it is the foundational core of our architecture. We operate on a strict <strong>Zero-Knowledge Architecture</strong>.</p>
+            
+            <h3>End-to-End Encryption (E2EE)</h3>
+            <p>All one-on-one communications in Hush are end-to-end encrypted using state-of-the-art cryptographic primitives: <strong>X25519</strong> (Curve25519 ECDH key agreement) and <strong>ChaCha20-Poly1305 AEAD</strong> symmetric authenticated cipher. Private cryptographic keys never leave your device.</p>
+
+            <h3>60-Second Ephemeral Lifecycle</h3>
+            <p>All exchanged messages strictly self-destruct 60 seconds after transmission. Message content is permanently purged from active device memory and automatically expired and erased from our backend database.</p>
+
+            <h3>Zero Data Collection</h3>
+            <ul>
+                <li><strong>No Chat History:</strong> We do not store conversation logs.</li>
+                <li><strong>No Search History:</strong> Searches by public ID are never recorded.</li>
+                <li><strong>No Plaintext Passwords:</strong> Passwords are authenticated securely via cryptographic hashing.</li>
+                <li><strong>No Tracking / No Third-Party Ads:</strong> We do not use advertising trackers, analytics SDKs, or data brokers.</li>
+            </ul>
+
+            <h3>Push Notifications</h3>
+            <p>Hush utilizes Apple Push Notification service (APNs) and Firebase Cloud Messaging (FCM) strictly to alert you of new incoming messages. Notification payloads display only the sender's public handle (e.g. <code>@username</code>) and never contain encrypted message ciphertext.</p>
+        </div>
+
+        <!-- TERMS OF SERVICE & EULA -->
+        <div class="card" id="terms">
+            <h2>📜 2. Terms of Service & End User License Agreement (EULA)</h2>
+            <p>By downloading, installing, or using Hush, you agree to be bound by this End User License Agreement (EULA), which complies with Apple App Store Review Guideline 1.2 (Safety / User-Generated Content).</p>
+
+            <div class="alert-box">
+                <h4>⚠️ Zero-Tolerance Policy for Objectionable Content and Harassment</h4>
+                <p style="color: #FF8A80; margin-bottom: 0;">
+                    Hush maintains a strict zero-tolerance policy regarding abusive users, harassment, hate speech, threats, scams, spam, or any objectionable content. Any user who violates these terms will have their account immediately terminated and permanently blocked.
+                </p>
+            </div>
+
+            <h3>User Safety & Moderation Controls</h3>
+            <p>Hush provides direct, built-in safety controls accessible in all active screens:</p>
+            <ul>
+                <li><strong>In-App User Blocking:</strong> You can block any user at any time with a single tap. Blocking a user instantly closes active sessions and prevents them from initiating future contact.</li>
+                <li><strong>In-App User Reporting:</strong> You can report any user for harassment, spam, or inappropriate behavior directly via the report flag in the chat header or profile view. Our safety team reviews all reports promptly.</li>
+            </ul>
+
+            <h3>Account Responsibility</h3>
+            <p>You are responsible for maintaining the confidentiality of your chosen public ID and password. Because Hush is built on Zero-Knowledge architecture, lost credentials cannot be recovered via email.</p>
+        </div>
+
+        <!-- ACCOUNT DELETION -->
+        <div class="card" id="deletion">
+            <h2>🗑️ 3. In-App Account & Data Deletion (Apple Guideline 5.1.1)</h2>
+            <p>In full compliance with Apple Review Guideline 5.1.1(v), Hush provides a simple, direct, and immediate in-app account deletion mechanism.</p>
+            
+            <p><strong>How to delete your account:</strong></p>
+            <ol style="padding-left: 24px; color: var(--text-sec); margin-bottom: 16px;">
+                <li style="margin-bottom: 6px;">Open the Hush application on your device.</li>
+                <li style="margin-bottom: 6px;">Open the side navigation drawer and tap <strong>Account</strong>.</li>
+                <li style="margin-bottom: 6px;">Scroll down and tap <strong>Delete Account</strong>.</li>
+                <li style="margin-bottom: 6px;">Type <code>easy</code> into the confirmation field and tap <strong>Delete</strong>.</li>
+            </ol>
+            <p><strong>What happens when you delete your account:</strong></p>
+            <ul>
+                <li>Your profile and public ID are immediately wiped from our servers.</li>
+                <li>All cryptographic keypairs and local tokens stored in Keychain / Secure Storage are purged.</li>
+                <li>All active sessions, friendships, and blocked records are permanently deleted.</li>
+            </ul>
+        </div>
+
+        <!-- CONTACT & SUPPORT -->
+        <div class="card" id="support">
+            <h2>📬 4. Contact & Support</h2>
+            <p>If you have any questions, feedback, or need to report a critical security concern, please contact our support team:</p>
+            <p>
+                <strong>Developer:</strong> Hush Security Team<br>
+                <strong>Email Support:</strong> <a href="mailto:support@huhuchat.app">support@huhuchat.app</a> / <a href="mailto:restahlna.design@gmail.com">restahlna.design@gmail.com</a><br>
+                <strong>GitHub Repository:</strong> <a href="https://github.com/restahlna-design/huhuchat" target="_blank">github.com/restahlna-design/huhuchat</a>
+            </p>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Hush Messaging. All rights reserved. Zero-Knowledge Architecture.</p>
+        </footer>
+    </div>
+</body>
+</html>
